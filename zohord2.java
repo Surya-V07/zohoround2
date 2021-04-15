@@ -6,10 +6,10 @@ public class Main{
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
 		char[]a=s.toCharArray();
-		int max=a.length,mid=a.length/2;
+		int max=a.length-1,mid=a.length/2;
 		for(int i=0;i<a.length;i++)
 		{
-			for(int j=0;j<=a.length;j++)
+			for(int j=0;j<a.length;j++)
 			{
 				if(j>=max)
 				{
